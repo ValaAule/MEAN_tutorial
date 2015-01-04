@@ -6,8 +6,10 @@
     <title>People Posts</title>
 </head>
 
-//ng-app  creates the angular app
+//ng-app  creates the angular application
 <body ng-app="app">
+
+    //ng-controller
     <div ng-controller = "PostsCtrl" class="container">
         <h1>Recent Posts</h1>
         <form role = "form">
@@ -29,8 +31,10 @@
         </ul>
     </div>
 
+    //grabs the angular libraries from Google
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.js"></script>
     <script>
+
         //create the app module
         var app = angular.module("app",[])
 
@@ -46,6 +50,7 @@
                     }
                 }
 
+                //two rows of sample data
                 $scope.posts = [
                     {
                         username: "Aule",
