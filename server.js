@@ -9,6 +9,7 @@ var bodyParser = require('body-parser')
 var app = express()
 app.use(bodyParser.json())
 
+// get data
 app.get('/api/posts', function (req, res) {
     res.json([
         {
@@ -16,6 +17,14 @@ app.get('/api/posts', function (req, res) {
             body: 'server.js rocks!'
         }
     ])
+})
+
+// submits data
+app.post('/api/posts', function (req, res) {
+    console.log('post received!')
+    console.log(req.body.username)
+    console.log(req.body.body)
+    res.send(201)
 })
 
 app.listen(3000, function() {
