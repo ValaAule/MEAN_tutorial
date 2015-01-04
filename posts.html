@@ -23,6 +23,7 @@
              </div>
         </form>
 
+        //instantiates a template once per item from a collection
         <ul class="list-group">
             <li ng-repeat="post in posts" class="list-group-item">
                 <strong>@{{ post.username }}</strong>
@@ -38,7 +39,7 @@
         //create the app module
         var app = angular.module("app",[])
 
-        //create the PostsCtrl module and dependency inject $scope
+        //create the PostsCtrl module and dependency inject $scope, the scope ties/glues the controller to the view
         app.controller("PostsCtrl",function ($scope) {
             $scope.addPost = function() {
                 if ($scope.postBody) {
@@ -46,6 +47,8 @@
                             username: 'new user',
                             body: $scope.postBody
                         })
+
+                        //resets postbody to empty so each new add starts from scratch
                         $scope.postBody = null
                     }
                 }
