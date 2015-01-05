@@ -6,10 +6,10 @@
     <title>People Posts</title>
 </head>
 
-//ng-app  creates the angular application
+<!-- ng-app  creates the angular application -->
 <body ng-app="app">
 
-    //ng-controller
+    <!-- ng-controller -->
     <div ng-controller = "PostsCtrl" class="container">
         <h1>Recent Posts</h1>
         <form role = "form">
@@ -23,7 +23,7 @@
              </div>
         </form>
 
-        //instantiates a template once per item from a collection
+        <!-- instantiates a template once per item from a collection -->
         <ul class="list-group">
             <li ng-repeat="post in posts" class="list-group-item">
                 <strong>@{{ post.username }}</strong>
@@ -32,7 +32,7 @@
         </ul>
     </div>
 
-    //grabs the angular libraries from Google
+    <!-- grabs the angular libraries from Google -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.js"></script>
     <script>
 
@@ -47,13 +47,10 @@
                             username: 'new user',
                             body: $scope.postBody
                         })
-
-                        //resets postbody to empty so each new add starts from scratch
                         $scope.postBody = null
                     }
                 }
 
-                //two rows of sample data
                 $scope.posts = [
                     {
                         username: "Aule",
