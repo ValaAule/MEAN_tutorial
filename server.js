@@ -5,24 +5,21 @@
 
 var express = require('express')
 var bodyParser = require('body-parser')
+var Post = require('./models/posts')
 
 var app = express()
 app.use(bodyParser.json())
 
 // get data
-app.get('/api/posts', function (req, res) {
-    res.json([
-        {
-            username: 'ValaAule',
-            body: 'server.js rocks!'
-        }
-    ])
+app.get('/api/posts', function (req, res, next) {
+    Post.find(function(err, posts) {
+        if (err) { return next(err) }
+        res.json(posts)
+    })
 })
 
 // submits data
-var Post = require('./models/posts')
 app.post('/api/posts', function (req, res, next) {
-
     //build a new model of schema username and body
     var post = new Post({
         username: req.body.username,
