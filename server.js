@@ -1,11 +1,11 @@
 /**
  * Created by Aule on 1/3/15.
- * Stubbed out post for Node.js
+ * Not used by the application (supplanted by server.js)
  */
 
 var express = require('express')
 var bodyParser = require('body-parser')
-var Post = require('./models/posts')
+var Post = require('./models/post')
 
 var app = express()
 app.use(bodyParser.json())
@@ -26,14 +26,14 @@ app.post('/api/posts', function (req, res, next) {
         body: req.body.body
     })
 
-    //save model above and send a json representation of it
+    // save model above and send a json representation of it
     // if there's an error, the next call will pass it to Express to pass on to the client
     post.save(function (err,post) {
         if (err) { return next(err) }
         res.json(201, post)
     })
 
-    //output post and associated data
+    // output post and associated data
     console.log('post received!')
     console.log(req.body.username)
     console.log(req.body.body)
