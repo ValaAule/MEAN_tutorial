@@ -1,3 +1,5 @@
+* Not used by the application (supplanted by server.js)
+
 var express = require('express');
 var app = express ();
 

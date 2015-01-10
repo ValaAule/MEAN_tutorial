@@ -1,6 +1,5 @@
 /**
  * Created by Aule on 1/3/15.
- * Not used by the application (supplanted by server.js)
  */
 
 var express = require('express')
@@ -30,7 +29,7 @@ app.post('/api/posts', function (req, res, next) {
     // if there's an error, the next call will pass it to Express to pass on to the client
     post.save(function (err,post) {
         if (err) { return next(err) }
-        res.json(201, post)
+        res.status(201).json(post)
     })
 
     // output post and associated data
