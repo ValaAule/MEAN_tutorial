@@ -17,6 +17,11 @@ app.get('/api/posts', function (req, res, next) {
     })
 })
 
+//added in chapter 5, page 55
+app.get('/', function(req, res) {
+    res.sendfile('layouts/posts.html')
+})
+
 // submits data
 app.post('/api/posts', function (req, res, next) {
     //build a new model of schema username and body

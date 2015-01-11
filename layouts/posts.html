@@ -41,7 +41,7 @@
         var app = angular.module("app",[])
 
         //create the PostsCtrl module and dependency inject $scope, the scope ties/glues the controller to the view
-        app.controller("PostsCtrl",function ($scope) {
+        app.controller("PostsCtrl",function ($scope, $http) {
             $scope.addPost = function() {
                 if ($scope.postBody) {
                         $scope.posts.unshift({
@@ -52,16 +52,10 @@
                     }
                 }
 
-                $scope.posts = [
-                    {
-                        username: "Aule",
-                        body: "Node rules!"
-                    },
-                    {
-                        username: "vendor",
-                        body: "Trying out angular.js...."
-                    }
-                ]
+            $http.get('http://localhost:3000/api/posts')
+                    .success(function (posts) {
+                        $scope.posts = posts
+                    })
         })
     </script>
 </body>
