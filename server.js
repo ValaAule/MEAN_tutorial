@@ -33,10 +33,10 @@ app.post('/api/posts', function (req, res, next) {
     })
 
     // output post and associated data
-    console.log('post received!')
-    console.log(req.body.username)
-    console.log(req.body.body)
-    res.send(201)
+    //console.log('post received!')
+    //console.log(req.body.username)
+    //console.log(req.body.body,)
+    //res.send(201)
 })
 
 app.listen(3000, function() {

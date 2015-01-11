@@ -6,5 +6,6 @@ var Post = db.model('Post', {
     date:       {type: Date, required: true, default: Date.now}
 })
 
+console.log('Post Received -post.js')
 // makes the Post variable available to other modules
 module.exports = Post
