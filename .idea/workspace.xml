@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c054ca05-2dc3-408f-be0f-2d5bd1b329e5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/posts.html" afterPath="$PROJECT_DIR$/layouts/posts.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/static.js" afterPath="$PROJECT_DIR$/controllers/static.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -81,8 +83,8 @@
       <file leaf-file-name="posts.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/posts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.375" vertical-offset="456" max-vertical-offset="1050">
-              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+            <state vertical-scroll-proportion="-20.375" vertical-offset="66" max-vertical-offset="675">
+              <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -91,9 +93,21 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30456853" vertical-offset="0" max-vertical-offset="591">
-              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.40609136" vertical-offset="0" max-vertical-offset="591">
+              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+              <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#41#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,8 +115,8 @@
       <file leaf-file-name="static.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/static.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -126,9 +140,10 @@
         <option value="$PROJECT_DIR$/api/posts/package.json" />
         <option value="$PROJECT_DIR$/models/post.js" />
         <option value="$PROJECT_DIR$/posts.html" />
-        <option value="$PROJECT_DIR$/layouts/posts.html" />
         <option value="$PROJECT_DIR$/controllers/api/posts.js" />
         <option value="$PROJECT_DIR$/controllers/static.js" />
+        <option value="$PROJECT_DIR$/layouts/posts.html" />
+        <option value="$PROJECT_DIR$/assets/app.js" />
         <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
@@ -237,6 +252,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MEAN_tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MEAN_tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -394,7 +423,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421129437956</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Ch 5, page 62&#10;- Still broken, diff error around &quot;Cannot find module .contollers/static' upon startup">
+      <created>1421252561813</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1421252561813</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -478,7 +513,8 @@
     <MESSAGE value="Ch 5, page e55&#10;- Serving posts.html via node&#10;- Can retrieve posts from MongoDB" />
     <MESSAGE value="Ch 5, page 57&#10;- Order posts&#10;- Added comments" />
     <MESSAGE value="Ch 5, page 62&#10;- Broken with server.js:14:9 res.sendfile express deprecated message&#10;- Refactored out the endpoints out of server.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ch 5, page 62&#10;- Broken with server.js:14:9 res.sendfile express deprecated message&#10;- Refactored out the endpoints out of server.js" />
+    <MESSAGE value="Ch 5, page 62&#10;- Still broken, diff error around &quot;Cannot find module .contollers/static' upon startup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ch 5, page 62&#10;- Still broken, diff error around &quot;Cannot find module .contollers/static' upon startup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -588,26 +624,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/posts.html">
+    <entry file="file://$PROJECT_DIR$/controllers/static.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.375" vertical-offset="456" max-vertical-offset="1050">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/static.js">
+    <entry file="file://$PROJECT_DIR$/layouts/posts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        <state vertical-scroll-proportion="-20.375" vertical-offset="66" max-vertical-offset="675">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30456853" vertical-offset="0" max-vertical-offset="591">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.40609136" vertical-offset="0" max-vertical-offset="591">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
           <folding />
         </state>
       </provider>
