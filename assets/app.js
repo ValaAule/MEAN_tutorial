@@ -1,5 +1,6 @@
 /**
- * Created by whitman on 1/14/15.
+ * Created by Aule on 1/14/15.
+ * Server file
  */
 
 
@@ -34,3 +35,5 @@ app.controller("PostsCtrl",function ($scope, PostsSvc) {
         .success(function (posts) {
             $scope.posts = posts
 })
+
+console.log('app.js called')

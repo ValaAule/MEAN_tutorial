@@ -30,3 +30,4 @@ router.post('/', function (req, res, next) {
 })
 
 module.exports = router
+console.log('posts.js called')
