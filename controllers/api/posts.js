@@ -1,12 +1,13 @@
 /**
  * Created by Aule on 1/12/15.
  */
-var Post = require('../../models/post')
 //add an app object which used to be referenced in server.js
 var router = require('express').Router()
+var Post = require('../../models/post')
+
 
 // get data
-router.get('/', function (req, res, next) {
+router.get('/posts', function (req, res, next) {
     Post.find(function(err, posts) {
         if (err) { return next(err) }
         res.json(posts)
@@ -14,7 +15,7 @@ router.get('/', function (req, res, next) {
 })
 
 // submits data
-router.post('/', function (req, res, next) {
+router.post('/posts', function (req, res, next) {
     //build a new model of schema username and body
     var post = new Post({
         username: req.body.username,
