@@ -1,8 +1,8 @@
 /**
  * Created by Aule on 1/14/15.
- * Server file
+ * Application Logic for controllers ans services
  */
-//create the app module
+
 var app = angular.module("app",[])
 
 //create the PostsCtrl module and dependency inject $scope, the scope ties/glues the controller to the view
@@ -11,7 +11,7 @@ app.controller("PostsCtrl",function ($scope, PostsSvc) {
     $scope.addPost = function() {
         if ($scope.postBody) {
             PostsSvc.create({
-                username: 'new user3',
+                username: 'Add Post Button',
                 body: $scope.postBody
             }).success(function (post) {
                 $scope.posts.unshift(post)

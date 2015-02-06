@@ -1,10 +1,10 @@
 /**
  * Created by Aule on 1/12/15.
+ * Defines REST API, get and post of data
  */
-//add an app object which used to be referenced in server.js
+
 var router = require('express').Router()
 var Post = require('../../models/post')
-
 
 // get data
 router.get('/api/posts', function (req, res, next) {

@@ -1,6 +1,7 @@
 /**
  * Created by Aule on 1/3/15.
- * Server file
+ * Server file: Global middleware (Express), config, mounting controllers, logging, error handling
+ * Called at nod.js startup via node server.js
  */
 
 var express = require('express')
