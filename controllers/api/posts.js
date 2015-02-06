@@ -7,7 +7,7 @@ var Post = require('../../models/post')
 
 
 // get data
-router.get('/posts', function (req, res, next) {
+router.get('/api/posts', function (req, res, next) {
     Post.find(function(err, posts) {
         if (err) { return next(err) }
         res.json(posts)
@@ -15,7 +15,7 @@ router.get('/posts', function (req, res, next) {
 })
 
 // submits data
-router.post('/posts', function (req, res, next) {
+router.post('/', function (req, res, next) {
     //build a new model of schema username and body
     var post = new Post({
         username: req.body.username,
