@@ -7,11 +7,11 @@
     <title>People Posts</title>
     <!-- grabs the angular libraries from Google -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.js"></script>
-    <script src="/assets/app.js"></script>
+    <!-- ??? why the *&$%#% this isnt' /assets/app.js beata the heck out of me -->
+    <script src="/app.js"></script>
 </head>
 <body>
-    <!-- ng-controller, Ctrl suffix used to specify the controller-->
-    <div ng-controller = "PostsCtrl" class="container">
+    <div ng-controller='PostsCtrl' class='container'>
         <h1>Recent Posts</h1>
         <form role='form'>
             <div class='form-group'>
@@ -24,9 +24,9 @@
              </div>
         </form>
       <ul class='list-group'>
-            <li ng-repeat="post in posts | orderBy:'-date'" class="list-group-item">
-                <strong>@{{ Post.username }}</strong>
-                <span>{{ Post.body }}</span>
+            <li ng-repeat="post in posts | orderBy:'-date'" class='list-group-item'>
+                <strong>@{{ post.username }}</strong>
+                <span>{{ post.body }}</span>
             </li>
         </ul>
     </div>
