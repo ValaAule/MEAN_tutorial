@@ -15,7 +15,7 @@ router.get('/api/posts', function (req, res, next) {
 })
 
 // submits data
-router.post('/', function (req, res, next) {
+router.post('/api/posts', function (req, res, next) {
     //build a new model of schema username and body
     var post = new Post({
         username: req.body.username,
