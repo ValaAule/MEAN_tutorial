@@ -1,5 +1,5 @@
 /**
- * Created by whitman on 2/6/15.
+ * Created by Aule on 2/6/15.
  */
 angular.module('app')
 
