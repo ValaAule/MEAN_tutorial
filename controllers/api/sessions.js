@@ -22,3 +22,5 @@ router.post('/', function(req, requ, next) {
             })
         })
 })
+
+module.exports = router
