@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c054ca05-2dc3-408f-be0f-2d5bd1b329e5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/api/users.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first/LICENSE" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first/LICENSE" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/raw-body/LICENSE" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/raw-body/LICENSE" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first/README.md" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app.js" afterPath="$PROJECT_DIR$/assets/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first/index.js" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ng/routes.js" afterPath="$PROJECT_DIR$/ng/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/api/sessions.js" afterPath="$PROJECT_DIR$/controllers/api/sessions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/api/users.js" afterPath="$PROJECT_DIR$/controllers/api/users.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tutorial.iws" />
@@ -64,20 +61,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/api/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="585">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7256098" vertical-offset="63" max-vertical-offset="585">
+              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ng/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33536586" vertical-offset="0" max-vertical-offset="492">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
               <folding />
             </state>
@@ -174,8 +171,8 @@
         <option value="$PROJECT_DIR$/ng/module.js" />
         <option value="$PROJECT_DIR$/controllers/api/index.js" />
         <option value="$PROJECT_DIR$/controllers/api/sessions.js" />
-        <option value="$PROJECT_DIR$/controllers/api/users.js" />
         <option value="$PROJECT_DIR$/ng/routes.js" />
+        <option value="$PROJECT_DIR$/controllers/api/users.js" />
       </list>
     </option>
   </component>
@@ -765,7 +762,13 @@
       <option name="project" value="LOCAL" />
       <updated>1423666353738</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Ch 8 (pg 111) - app working, need to be able to post a new user">
+      <created>1423667197498</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1423667197498</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -793,7 +796,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.458897" sideWeight="0.7137512" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.458897" sideWeight="0.7137512" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31425598" sideWeight="0.49953228" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997923" sideWeight="0.49953228" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.458897" sideWeight="0.28624883" order="7" side_tool="true" content_ui="tabs" />
@@ -856,7 +859,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Chapter 4, page 48&#10;- Mongoose models&#10;- Troubleshooting why data isn't persisted in mongodb" />
     <MESSAGE value="Chapter 4, page 48&#10;- Minor Comment" />
     <MESSAGE value="Chapter 4, page 49&#10;- Rewrote server.js with Get&#10;- Reorganized var&#10;- Still not persisting data to mongodb" />
     <MESSAGE value="Troubleshooting&#10;- Fixed Required typo&#10;- annotated code" />
@@ -881,7 +883,8 @@
     <MESSAGE value="Ch 8 (pg 106) - added a router" />
     <MESSAGE value="Ch 8 (pg 106) - debugged a bunch of issues&#10;- build working&#10;- typos in post controller&#10;- got ng-annotate working" />
     <MESSAGE value="Ch 8 (pg 110) - app crashes due to Express error" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ch 8 (pg 110) - app crashes due to Express error" />
+    <MESSAGE value="Ch 8 (pg 111) - app working, need to be able to post a new user" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ch 8 (pg 111) - app working, need to be able to post a new user" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1288,18 +1291,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/api/users.js">
+    <entry file="file://$PROJECT_DIR$/ng/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="585">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ng/routes.js">
+    <entry file="file://$PROJECT_DIR$/controllers/api/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33536586" vertical-offset="0" max-vertical-offset="492">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.7256098" vertical-offset="63" max-vertical-offset="585">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
           <folding />
         </state>
       </provider>

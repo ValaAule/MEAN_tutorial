@@ -10,7 +10,7 @@ var config = require('../../config')
 
 router.get('/', function (req, res, next){
     if(!req.headers['x-auth']){
-        return res-send(401)
+        return res.sendStatus(401)
     }
     var auth = jwt.decode(req.headers['x-auth'], config.secret)
     User.findOne({username: auth.username}, function(err, user) {
@@ -26,7 +26,7 @@ router.post('/', function (req,res, next){
         user.password = hash
         user.save(function (err) {
             if(err) {return next(err)}
-            res.send(201)
+            res.sendStatus(201)
         })
     })
 })
