@@ -6,7 +6,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/raw-body/LICENSE" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/raw-body/LICENSE" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first/README.md" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first/index.js" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/api/users.js" afterPath="$PROJECT_DIR$/controllers/api/users.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/api/sessions.js" afterPath="$PROJECT_DIR$/controllers/api/sessions.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tutorial.iws" />
@@ -51,21 +51,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sessions.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sessions.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/api/sessions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.6707317" vertical-offset="0" max-vertical-offset="492">
+              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/api/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7256098" vertical-offset="63" max-vertical-offset="585">
-              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -170,9 +170,9 @@
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/ng/module.js" />
         <option value="$PROJECT_DIR$/controllers/api/index.js" />
-        <option value="$PROJECT_DIR$/controllers/api/sessions.js" />
         <option value="$PROJECT_DIR$/ng/routes.js" />
         <option value="$PROJECT_DIR$/controllers/api/users.js" />
+        <option value="$PROJECT_DIR$/controllers/api/sessions.js" />
       </list>
     </option>
   </component>
@@ -768,7 +768,19 @@
       <option name="project" value="LOCAL" />
       <updated>1423667197498</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Ch 8 (pg 111) - still troubleshooting&#10;- fixed deprecated send statuses&#10;- fixed typos in users.js">
+      <created>1423667600376</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1423667600376</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Ch 8 (pg 112) - fix bcyrpt to 10, works">
+      <created>1423725350135</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1423725350135</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -796,7 +808,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.458897" sideWeight="0.7137512" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.458897" sideWeight="0.7137512" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31425598" sideWeight="0.49953228" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997923" sideWeight="0.49953228" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.458897" sideWeight="0.28624883" order="7" side_tool="true" content_ui="tabs" />
@@ -859,8 +871,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Chapter 4, page 48&#10;- Minor Comment" />
-    <MESSAGE value="Chapter 4, page 49&#10;- Rewrote server.js with Get&#10;- Reorganized var&#10;- Still not persisting data to mongodb" />
     <MESSAGE value="Troubleshooting&#10;- Fixed Required typo&#10;- annotated code" />
     <MESSAGE value="Still Troubleshooting - merged to answer set, but still not working quite right." />
     <MESSAGE value="Ch 4 - Working Code.  Can post from CURL (not html)" />
@@ -884,7 +894,9 @@
     <MESSAGE value="Ch 8 (pg 106) - debugged a bunch of issues&#10;- build working&#10;- typos in post controller&#10;- got ng-annotate working" />
     <MESSAGE value="Ch 8 (pg 110) - app crashes due to Express error" />
     <MESSAGE value="Ch 8 (pg 111) - app working, need to be able to post a new user" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ch 8 (pg 111) - app working, need to be able to post a new user" />
+    <MESSAGE value="Ch 8 (pg 111) - still troubleshooting&#10;- fixed deprecated send statuses&#10;- fixed typos in users.js" />
+    <MESSAGE value="Ch 8 (pg 112) - fix bcyrpt to 10, works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ch 8 (pg 112) - fix bcyrpt to 10, works" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1283,14 +1295,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/api/sessions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ng/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
@@ -1301,8 +1305,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/api/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7256098" vertical-offset="63" max-vertical-offset="585">
-          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/api/sessions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6707317" vertical-offset="0" max-vertical-offset="492">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
           <folding />
         </state>
       </provider>

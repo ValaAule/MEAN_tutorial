@@ -8,7 +8,7 @@ var bcrypt = require('bcrypt')
 var jwt = require('jwt-simple')
 var config=require('../../config')
 
-router.post('/', function(req, requ, next) {
+router.post('/', function(req, res, next) {
     User.findOne({username: req.body.username})
         .select('password').select('username')
         .exec(function (err,user){
