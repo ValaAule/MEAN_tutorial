@@ -14,14 +14,11 @@ router.get('/api/posts', function (req, res, next) {
     })
 })
 
-// submits data
+// submits data  using req.auth.username instead of req.body.username makes the post associate with user
 router.post('/api/posts', function (req, res, next) {
     //build a new model of schema username and body
-    var post = new Post({
-        username: req.body.username,
-        body: req.body.body
-    })
-
+    var post = new Post({body: req.body.body})
+  post.username = req.auth.username
     // save model above and send a json representation of it
     // if there's an error, the next call will pass it to Express to pass on to the client
     post.save(function (err,post) {
