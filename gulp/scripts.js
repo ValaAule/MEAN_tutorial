@@ -1,6 +1,6 @@
 /**
  * Created by Aule on 2/7/15.
- * Minifies, concatenates, creates sources and builds app.js
+ * Build file: Minifies, concatenates, creates sources and builds app.js
  */
 var gulp = require('gulp')
 var concat = require('gulp-concat')

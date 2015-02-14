@@ -1,6 +1,6 @@
 /**
  * Created by Aule on 2/9/15.
- *
+ * Routing file that maps the controllers and html files
  */
 
 angular.module('app')

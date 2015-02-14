@@ -1,6 +1,6 @@
 /**
  * Created by Aule on 1/12/15.
- * Defines REST API, get and post of data
+ * REST endpoint: get and post posts
  */
 
 var router = require('express').Router()

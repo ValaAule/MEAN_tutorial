@@ -1,10 +1,10 @@
 /**
  * Created by Aule on 2/6/15.
+ * create the PostsCtrl module and dependency inject $scope, the scope ties/glues the controller to the view
+ * integrate to the REST API to post back to MongoDB.  Only the success function is posted and it nulls the value for the next time
  */
-angular.module('app')
 
-//create the PostsCtrl module and dependency inject $scope, the scope ties/glues the controller to the view
-//integrate to the REST API to post back to MongoDB.  Only the success function is posted and it nulls the value for the next time
+angular.module('app')
 .controller("PostsCtrl",function ($scope, PostsSvc) {
     $scope.addPost = function() {
         if ($scope.postBody) {

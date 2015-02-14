@@ -1,5 +1,6 @@
 /**
  * Created by Aule on 2/11/15.
+ * REST endpoint: get and post users?
  */
 
 var router = require('express').Router()

@@ -1,5 +1,6 @@
 /**
  * Created by Aule on 2/10/15.
+ * REST endpoint: post username
  */
 
 var router = require('express').Router()

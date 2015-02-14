@@ -1,5 +1,6 @@
 /**
  * Created by Aule on 2/10/15.
+ * File is dependent on db.js and defines a schema or Mongoose model to store users
  */
 var db = require('../db')
 var user = db.Schema({

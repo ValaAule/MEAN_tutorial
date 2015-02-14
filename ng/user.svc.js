@@ -21,7 +21,7 @@ angular.module('app')
     })
   }
 
-        //not in the code in the book, but off github why???  what does it do
+ //not in the code in the book, but off github why???  what does it do
   svc.register = function (username, password) {
     return $http.post('/api/users', {
       username: username, password: password

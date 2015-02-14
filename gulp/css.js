@@ -1,6 +1,6 @@
 /**
  * Created by Aule on 2/7/15.
- * Build file for css
+ * Build file: generates css files
  */
     
 var gulp = require('gulp')
