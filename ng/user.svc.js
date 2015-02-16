@@ -16,7 +16,7 @@ angular.module('app')
         return $http.post('/api/sessions', {
             username: username, password: password
         }).then(function (response) {
-            window.localStorage.token = response.data
+            svc.token = response.data
             $http.defaults.headers.common['X-Auth'] = response.data
             return svc.getUser()
         })
