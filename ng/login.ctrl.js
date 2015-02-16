@@ -1,5 +1,6 @@
 /**
  * Created by Aule on 2/9/15.
+ * Used for login page
  */
 
 angular.module('app')
