@@ -9,6 +9,7 @@ angular.module('app')
             UserSvc.register(username, password)
                     .then(function (user){
                     $scope.$emit('login', user)
+                    console.log('register.ctrl.js: registration succesful')
             })
         }
     })

@@ -5,3 +5,5 @@
 module.exports = {
     secret: 'supersecretkey'
 }
+
+console.log('config.js: token key accessed successfully')

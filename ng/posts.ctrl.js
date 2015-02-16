@@ -14,6 +14,7 @@ angular.module('app')
             }).success(function (post) {
                 $scope.posts.unshift(post)
                 $scope.postBody = null
+                console.log('posts.ctrl.js: create post successful')
             })
         }
     }
@@ -21,5 +22,6 @@ angular.module('app')
     PostsSvc.fetch()
         .success(function (posts) {
             $scope.posts = posts
+            console.log('posts.ctrl.js: fetch post succesful')
         })
 })

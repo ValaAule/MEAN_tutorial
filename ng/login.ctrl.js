@@ -9,6 +9,7 @@ angular.module('app')
             UserSvc.login(username, password)
                     .then(function (user){
                     $scope.$emit('login', user)
+                    console.log('login.ctrl.js: login successful')
             })
         }
     })

@@ -10,5 +10,5 @@ var Post = db.model('Post', {
     date:       {type: Date, required: true, default: Date.now}
 })
 
-console.log('Post Received -post.js')
+console.log('post.js: post schema accessed successfully')
 module.exports = Post

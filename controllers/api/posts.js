@@ -28,4 +28,4 @@ router.post('/api/posts', function (req, res, next) {
 })
 
 module.exports = router
-console.log('posts.js called')
+console.log('posts.js: post found and saved successfully')

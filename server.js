@@ -18,5 +18,5 @@ app.use('/api/users', require('./controllers/api/users'))
 
 
 app.listen(3000, function() {
-    console.log('Server listening on', 3000)
+    console.log('server.js: server listening on', 3000)
     })
