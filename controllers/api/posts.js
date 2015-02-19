@@ -5,6 +5,7 @@
 
 var router = require('express').Router()
 var Post = require('../../models/post')
+var websockets = require('../../websockets')
 
 // get data
 router.get('/api/posts', function (req, res, next) {
@@ -23,6 +24,7 @@ router.post('/api/posts', function (req, res, next) {
     // if there's an error, the next call will pass it to Express to pass on to the client
     post.save(function (err,post) {
         if (err) { return next(err) }
+        websockets.broadcast('new post', post)
         res.status(201).json(post)
     })
 })
