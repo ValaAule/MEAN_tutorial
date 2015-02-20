@@ -13,6 +13,7 @@ router.get('/api/posts', function (req, res, next) {
         if (err) { return next(err) }
         res.json(posts)
     })
+    console.log('posts.js: found post successfully')
 })
 
 // submits data  using req.auth.username instead of req.body.username makes the post associate with user
@@ -24,10 +25,10 @@ router.post('/api/posts', function (req, res, next) {
     // if there's an error, the next call will pass it to Express to pass on to the client
     post.save(function (err,post) {
         if (err) { return next(err) }
-        websockets.broadcast('new post', post)
+        websockets.broadcast('new_post', post)
         res.status(201).json(post)
     })
+    console.log('posts.js: saved post successfully')
 })
 
 module.exports = router
-console.log('posts.js: post found and saved successfully')

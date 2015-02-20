@@ -19,6 +19,7 @@ angular.module('app')
         }
     }
 
+// I don't seem to be able to call this code successfully
 $scope.$on('ws:new_post', function (_, post) {
     $scope.$apply(function () {
         $scope.posts.unshift(post)
