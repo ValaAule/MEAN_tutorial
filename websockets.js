@@ -2,7 +2,7 @@
  * Created by Aule on 2/16/15.
  * Enables websockets
  */
-//var _ = require('lodash')
+//var _ = require('lodash') - not sure why this is needed, throws an error
 var ws = require('ws')
 
 var clients = []
