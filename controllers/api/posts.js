@@ -4,8 +4,8 @@
  */
 
 var router = require('express').Router()
-var Post = require('../../models/post')
 var websockets = require('../../websockets')
+var Post = require('../../models/post')
 
 // get data
 router.get('/api/posts', function (req, res, next) {

@@ -12,22 +12,23 @@ angular.module('app')
                 username: 'Add Post Button',
                 body: $scope.postBody
             }).success(function (post) {
-                $scope.posts.unshift(post)
-                $scope.postBody = null
+                //$scope.posts.unshift(post)
+                //$scope.postBody = null
                 console.log('posts.ctrl.js: create post successful')
             })
         }
     }
 
-  $scope.$on('ws:new_post', function (_, post) {
+$scope.$on('ws:new_post', function (_, post) {
     $scope.$apply(function () {
-      $scope.posts.unshift(post)
+        $scope.posts.unshift(post)
+        console.log('posts.ctrl.js: websocket new post successful')
+        })
     })
-  })
 
     PostsSvc.fetch()
         .success(function (posts) {
             $scope.posts = posts
-            console.log('posts.ctrl.js: fetch post succesful')
+            console.log('posts.ctrl.js: fetch post successful')
         })
 })

@@ -9,11 +9,10 @@ angular.module('app')
 
         connection.onopen = function() {
             console.log('ng/websockets.js: websocket connected')
-
+        }
             connection.onmessage = function(e) {
                 console.log(e)
                 var payload = JSON.parse(e.data)
                 $rootScope.$broadcast('ws:' + payload.topic, payload.data)
-            }
         }
     })
