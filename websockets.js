@@ -1,6 +1,6 @@
 /**
  * Created by Aule on 2/16/15.
- * Enables websockets
+ * Enables websocket connections and broadcasts
  */
  //var _ = require('lodash') - throws an error since lodash isn't defined
 var ws = require('ws')
@@ -14,7 +14,7 @@ exports.connect = function (server) {
         //Bug?: Not sure this next item really does anything
         //exports.broadcast('new client joined')
         //Bug1: _ doesn't reference anything but lodash doesn't work above
-        //Bug2: broadcasts successfully if it's the browser is the only client, but not if there are multiple wcat sessions
+        //Bug2: broadcasts successfully if it's the browser is the only client, but not if there are multiple wcat sessions or using Safari
         ws.on('close', function() {
             _.remove(clients, ws)
             console.log('websockets.js: websockets close client successfully')
