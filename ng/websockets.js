@@ -13,6 +13,7 @@ angular.module('app')
                 console.log('ng/websockets.js: websocket connected')
             }
 
+            //reconnect logic
             connection.onclose = function (e) {
                 console.log('Websocket closed. Reconnecting...')
                 $timeout(connect, 10*1000)

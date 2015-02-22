@@ -1,6 +1,6 @@
 /**
  * Created by Aule on 2/16/15.
- * Enables websocket connections and broadcasts
+ * Enables websocket connections and broadcastsc
  */
  //var _ = require('lodash') - throws an error since lodash isn't defined
 var ws = require('ws')
