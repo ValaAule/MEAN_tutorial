@@ -1,4 +1,9 @@
-{
+"scripts": {
+"start": "node boot.js",
+"postinstall": "gulp build"
+},
+
+"dependencies":{
   "name": "socialapp",
   "dependencies": {
     "bcrypt": "^0.8.1",
@@ -15,13 +20,10 @@
     "mongoose": "^2.1.14",
     "ws": "^0.7.1"
   },
-  "devDependencies": {
+
+"devDependencies": {
     "mocha": "^2.1.0",
     "protractor": "^1.7.0"
   }
 }
 
-"scripts": {
-    "start": "node boot.js",
-    "postinstall": "gulp build"
-}
