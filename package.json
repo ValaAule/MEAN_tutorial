@@ -3,7 +3,7 @@
 
   "scripts": {
     "start": "node boot.js",
-    "postinstall": "gulp dev-server"
+    "postinstall": "gulp dev:server"
   },
 
   "dependencies": {
