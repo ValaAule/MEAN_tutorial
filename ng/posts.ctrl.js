@@ -13,7 +13,7 @@ angular.module('app')
                 body: $scope.postBody
             //if server responses success, unshift (add) the post onto $scope.posts and then set it to null
             }).success(function (post) {
-                $scope.posts.unshift(post)
+             //   $scope.posts.unshift(post) - removed to prevent aadded it twice
                 $scope.postBody = null
                 console.log('posts.ctrl.js: create post successful')
             })
