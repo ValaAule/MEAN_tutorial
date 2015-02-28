@@ -3,7 +3,7 @@
  * Establishes connection to MongoDB via mongoose
  */
 
-require("./models/post");
+require("./models/post")
 
 var mongoose = require('mongoose')
 var url = process.env.MONGOLAB_URI || 'mongodb://localhost/social'
