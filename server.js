@@ -16,8 +16,8 @@ app.use( require('./controllers/static'))
 app.use('/api/sessions', require('./controllers/api/sessions'))
 app.use('/api/users', require('./controllers/api/users'))
 
-
-var server = app.listen(3000, function() {
-    console.log('server.js: server listening on', 3000)
+var port = process.env.PORT || 3000
+var server = app.listen(port, function() {
+    console.log('server.js: server listening on', port)
     })
 require('./websockets').connect(server)
