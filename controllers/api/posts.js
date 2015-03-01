@@ -5,11 +5,10 @@
 
 var router = require('express').Router()
 var websockets = require('../../websockets')
-
+var Post = require('../../models/post')
 
 // get data
 router.get('/api/posts', function (req, res, next) {
-    var Post = require('../../models/post')
     Post.find(function(err, posts) {
         if (err) { return next(err) }
         res.json(posts)
