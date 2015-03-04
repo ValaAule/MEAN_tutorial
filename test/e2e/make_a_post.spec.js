@@ -3,7 +3,7 @@
  * Tests logging in and making a post
  */
 describe('making a post', function () {
-    it('logs in and creates a new post', function () {
+    it('creates a new post (want to prevent regressions in a prior bug)', function () {
         // go to homepage
         browser.get('http://localhost:3001')
 

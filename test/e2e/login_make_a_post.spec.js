@@ -21,5 +21,10 @@ describe('making a post', function () {
 
         //the user should now see their post as the first post on the page
         //browser.pause()
+
     })
+    //drops MongoDB after each test run
+    //afterEach(function () {
+    //db.connection.db.dropDatabase()
+    //})
 })

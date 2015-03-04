@@ -3,7 +3,7 @@
  * Tests logging in and making a post
  */
 describe('making a post', function () {
-    it('logs in and creates a new post', function () {
+    it('registers a new user', function () {
         // go to homepage
         browser.get('http://localhost:3001')
 
