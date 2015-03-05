@@ -2,8 +2,9 @@
  * Created by Aule on 2/21/15.
  * Tests logging in and making a post
  */
-describe('making a post', function () {
-    it('creates a new post (want to prevent regressions in a prior bug)', function () {
+
+describe('create a post:', function () {
+    it('type a post', function () {
         // go to homepage
         browser.get('http://localhost:3001')
 
@@ -12,6 +13,7 @@ describe('making a post', function () {
         var post = 'my new post from an automated test' + Math.random()
         element(by.model('postBody')).sendKeys(post)
         element(by.css('form .btn')).click()
+        console.log('Created Post: ' + post)
 
     })
 })

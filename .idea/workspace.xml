@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c054ca05-2dc3-408f-be0f-2d5bd1b329e5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/server/posts.spec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/e2e/login_make_a_post.spec.js" afterPath="$PROJECT_DIR$/test/e2e/login_make_a_post.spec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/e2e/make_a_post.spec.js" afterPath="$PROJECT_DIR$/test/e2e/make_a_post.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/e2e/register.spec.js" afterPath="$PROJECT_DIR$/test/e2e/register.spec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -49,11 +51,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_make_a_post.spec.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login_make_a_post.spec.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/e2e/login_make_a_post.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5942948" vertical-offset="0" max-vertical-offset="631">
-              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="705">
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posts.spec.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/server/posts.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2777778" vertical-offset="0" max-vertical-offset="540">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -62,8 +74,8 @@
       <file leaf-file-name="make_a_post.spec.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/e2e/make_a_post.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -73,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/test/e2e/register.spec.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -127,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/models/posts.js" />
         <option value="$PROJECT_DIR$/app-express.js" />
@@ -175,9 +186,10 @@
         <option value="$PROJECT_DIR$/templates/posts.html" />
         <option value="$PROJECT_DIR$/test/e2e/making_a_post.spec.js" />
         <option value="$PROJECT_DIR$/test/e2e/making_a_post_no_login.spec.js" />
-        <option value="$PROJECT_DIR$/test/e2e/register.spec.js" />
         <option value="$PROJECT_DIR$/test/e2e/make_a_post.spec.js" />
+        <option value="$PROJECT_DIR$/test/e2e/register.spec.js" />
         <option value="$PROJECT_DIR$/test/e2e/login_make_a_post.spec.js" />
+        <option value="$PROJECT_DIR$/test/server/posts.spec.js" />
       </list>
     </option>
   </component>
@@ -373,6 +385,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MEAN_tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MEAN_tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MEAN_tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -616,12 +646,6 @@
       <created>1420186170062</created>
       <option name="number" value="Default" />
       <updated>1420186170062</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Ch 5&#10;- Fixed an issue with deprecated express functions&#10;- Missing period in server.js file&#10;- Random punctuation errors&#10;- Data binding errors still">
-      <created>1422863236284</created>
-      <option name="number" value="00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1422863236284</updated>
     </task>
     <task id="LOCAL-00017" summary="Ch 5&#10;- Isolated the problem to a 404 error.  something is clearly wrong with the REST API itself and possibly a directory issue on server.js">
       <created>1423066127577</created>
@@ -911,7 +935,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425192052701</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Ch 10 (pg 155) - Added comments to test and option to drop the DB">
+      <created>1425482317875</created>
+      <option name="number" value="00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1425482317875</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -939,8 +969,8 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40894902" sideWeight="0.7126326" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31425598" sideWeight="0.4985535" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40894902" sideWeight="0.7126326" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31425598" sideWeight="0.4985535" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39958376" sideWeight="0.49953228" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.458897" sideWeight="0.2873674" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2806361" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -950,7 +980,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24976614" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27149323" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27149323" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1002,7 +1032,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Ch 8 (pg 118) - commented the code" />
     <MESSAGE value="Ch 8 (pg 119) - working registration page (svc.register inadvertantly added previously)" />
     <MESSAGE value="Ch 8 (pg 119) - enabled app to work without wifi" />
     <MESSAGE value="Ch 8 (pg 119) - fixed bug with login (removed use of localhost)" />
@@ -1027,7 +1056,8 @@
     <MESSAGE value="Heroku - Attempt to fix unregistered mongoose schema (might want to back this out)" />
     <MESSAGE value="Ch 10 (pg 151) - Got protractor test working off port 3001" />
     <MESSAGE value="Ch 10 (pg 151) - Added register and login e-e tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ch 10 (pg 151) - Added register and login e-e tests" />
+    <MESSAGE value="Ch 10 (pg 155) - Added comments to test and option to drop the DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ch 10 (pg 155) - Added comments to test and option to drop the DB" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1046,13 +1076,6 @@
     <find-history />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1893204" vertical-offset="0" max-vertical-offset="8655">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/archive/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.555555" vertical-offset="0" max-vertical-offset="630">
@@ -1425,23 +1448,31 @@
     <entry file="file://$PROJECT_DIR$/test/e2e/register.spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/e2e/make_a_post.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/e2e/login_make_a_post.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5942948" vertical-offset="0" max-vertical-offset="631">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="705">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/server/posts.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2777778" vertical-offset="0" max-vertical-offset="540">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding />
         </state>
       </provider>

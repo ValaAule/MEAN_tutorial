@@ -21,6 +21,8 @@
     "ws": "^0.7.1"
   },
   "devDependencies": {
+    "chai": "^2.1.0",
+    "chai-as-promised": "^4.2.0",
     "mocha": "^2.1.0",
     "protractor": "^1.7.0"
   }

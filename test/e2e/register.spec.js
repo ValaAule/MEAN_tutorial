@@ -2,8 +2,8 @@
  * Created by Aule on 2/21/15.
  * Tests logging in and making a post
  */
-describe('making a post', function () {
-    it('registers a new user', function () {
+describe('register a new user:', function () {
+    it('type in username and password', function () {
         // go to homepage
         browser.get('http://localhost:3001')
 
