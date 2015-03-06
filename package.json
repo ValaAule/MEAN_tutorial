@@ -25,8 +25,12 @@
     "chai-as-promised": "^4.2.0",
     "karma": "^0.12.31",
     "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-firefox-launcher": "^0.1.4",
+    "karma-ie-launcher": "^0.1.5",
     "karma-mocha": "^0.1.10",
     "karma-phantomjs-launcher": "^0.1.4",
+    "karma-safari-launcher": "^0.1.1",
     "mocha": "^2.1.0",
     "protractor": "^1.7.0",
     "supertest": "^0.15.0"
