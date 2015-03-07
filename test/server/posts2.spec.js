@@ -1,5 +1,6 @@
 /**
  * Created by Aule on 3/5/15.
+ * Mocha: Simple tests
  */
 
 var request = require('supertest')
